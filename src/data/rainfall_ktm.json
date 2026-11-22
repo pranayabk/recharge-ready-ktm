@@ -1,0 +1,20 @@
+{
+  "station": "Kathmandu Valley Baseline (DHM Normal)",
+  "annualTotalMm": 1400,
+  "designCloudburstMm": 50,
+  "designCloudburstDurationHours": 2,
+  "monthly": [
+    { "month": "Jan", "rainfallMm": 14 },
+    { "month": "Feb", "rainfallMm": 19 },
+    { "month": "Mar", "rainfallMm": 34 },
+    { "month": "Apr", "rainfallMm": 61 },
+    { "month": "May", "rainfallMm": 124 },
+    { "month": "Jun", "rainfallMm": 236 },
+    { "month": "Jul", "rainfallMm": 363 },
+    { "month": "Aug", "rainfallMm": 331 },
+    { "month": "Sep", "rainfallMm": 180 },
+    { "month": "Oct", "rainfallMm": 28 },
+    { "month": "Nov", "rainfallMm": 6 },
+    { "month": "Dec", "rainfallMm": 4 }
+  ]
+}

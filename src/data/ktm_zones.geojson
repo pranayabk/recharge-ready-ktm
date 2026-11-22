@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zoneId": "NORTH_ALLUVIAL",
+        "zoneName": "Northern Alluvial Zone (High Recharge)",
+        "infiltrationMultiplier": 1.0,
+        "soilDescription": "Coarse sand and gravel alluvial deposits (Budhanilkantha, Tokha, Bansbari, Gokarna) with high vertical permeability.",
+        "engineeringRecommendation": "Deep Percolation Pit (2.5m–3.5m depth) with boulder-gravel-sand filter media for direct deep aquifer replenishment.",
+        "color": "#10b981"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [85.2700, 27.7350],
+            [85.4200, 27.7350],
+            [85.4200, 27.8100],
+            [85.2700, 27.8100],
+            [85.2700, 27.7350]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zoneId": "CENTRAL_CLAY",
+        "zoneName": "Central Kalimati Clay Zone (Shallow Recharge)",
+        "infiltrationMultiplier": 0.45,
+        "soilDescription": "Thick impermeable lacustrine black clay (Kalimati formation) across core KMC, Putalisadak, Tripureshwor, and Patan limiting deep percolation.",
+        "engineeringRecommendation": "Shallow Dug-Well / Gravel Retention Trench (1.2m–1.8m depth) to detain storm peak runoff and recharge perched shallow aquifers.",
+        "color": "#f59e0b"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [85.2700, 27.6650],
+            [85.4200, 27.6650],
+            [85.4200, 27.7350],
+            [85.2700, 27.7350],
+            [85.2700, 27.6650]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zoneId": "SOUTH_MIXED",
+        "zoneName": "Southern Mixed Alluvial-Clay Zone (Moderate Recharge)",
+        "infiltrationMultiplier": 0.75,
+        "soilDescription": "Interbedded gravel, silt, and clay deposits (Harisiddhi, Chapagaun, Godawari, Kirtipur south) with moderate infiltration capacity.",
+        "engineeringRecommendation": "Standard Modular Recharge Pit (2.0m–2.5m depth) paired with permeable courtyard paving.",
+        "color": "#3b82f6"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [85.2700, 27.5900],
+            [85.4200, 27.5900],
+            [85.4200, 27.6650],
+            [85.2700, 27.6650],
+            [85.2700, 27.5900]
+          ]
+        ]
+      }
+    }
+  ]
+}
