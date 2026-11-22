@@ -1,0 +1,55 @@
+import type { PresetLocation } from '../types/simulator';
+
+export const KTM_PRESETS: PresetLocation[] = [
+  {
+    id: 'preset-north',
+    label: 'Budhanilkantha Residence',
+    wardLabel: 'Budhanilkantha Ward 3 (Northern Alluvial)',
+    lat: 27.7785,
+    lng: 85.3621,
+    defaultPolygon: [
+      [27.77855, 85.36205],
+      [27.77855, 85.36218],
+      [27.77844, 85.36218],
+      [27.77844, 85.36205],
+    ],
+    roofAreaSqM: 120,
+    roofMaterial: 'RCC_CONCRETE',
+    permeableYardPercent: 30,
+    annualPropertyTaxNPR: 15000,
+  },
+  {
+    id: 'preset-central',
+    label: 'Putalisadak Commercial Complex',
+    wardLabel: 'KMC Ward 28 (Central Kalimati Clay)',
+    lat: 27.7032,
+    lng: 85.3228,
+    defaultPolygon: [
+      [27.70332, 85.32268],
+      [27.70332, 85.32295],
+      [27.70308, 85.32295],
+      [27.70308, 85.32268],
+    ],
+    roofAreaSqM: 650,
+    roofMaterial: 'RCC_CONCRETE',
+    permeableYardPercent: 5,
+    annualPropertyTaxNPR: 85000,
+  },
+  {
+    id: 'preset-south',
+    label: 'Patan / Harisiddhi Courtyard',
+    wardLabel: 'LMC Ward 28 (Southern Mixed Zone)',
+    lat: 27.6385,
+    lng: 85.3412,
+    defaultPolygon: [
+      [27.63858, 85.34112],
+      [27.63858, 85.34128],
+      [27.63843, 85.34128],
+      [27.63843, 85.34112],
+    ],
+    roofAreaSqM: 185,
+    roofMaterial: 'TILED_GREEN',
+    permeableYardPercent: 25,
+    annualPropertyTaxNPR: 18000,
+  },
+];
