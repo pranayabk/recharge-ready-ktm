@@ -1,5 +1,13 @@
 {
   "type": "FeatureCollection",
+  "fallback": {
+    "zoneId": "OUTSIDE_VALLEY",
+    "zoneName": "Outer Valley Rim (Moderate Recharge)",
+    "infiltrationMultiplier": 0.6,
+    "soilDescription": "Sloped colluvial foothill deposits outside the core valley floor polygons.",
+    "engineeringRecommendation": "Contour Recharge Trench (1.5m depth) with silt trap to prevent hillside runoff.",
+    "color": "#94a3b8"
+  },
   "features": [
     {
       "type": "Feature",
@@ -15,11 +23,11 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [85.2700, 27.7350],
-            [85.4200, 27.7350],
-            [85.4200, 27.8100],
-            [85.2700, 27.8100],
-            [85.2700, 27.7350]
+            [85.2200, 27.7350],
+            [85.5300, 27.7350],
+            [85.5300, 27.8100],
+            [85.2200, 27.8100],
+            [85.2200, 27.7350]
           ]
         ]
       }
@@ -38,11 +46,11 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [85.2700, 27.6650],
-            [85.4200, 27.6650],
-            [85.4200, 27.7350],
-            [85.2700, 27.7350],
-            [85.2700, 27.6650]
+            [85.2200, 27.6650],
+            [85.5300, 27.6650],
+            [85.5300, 27.7350],
+            [85.2200, 27.7350],
+            [85.2200, 27.6650]
           ]
         ]
       }
@@ -61,11 +69,11 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [85.2700, 27.5900],
-            [85.4200, 27.5900],
-            [85.4200, 27.6650],
-            [85.2700, 27.6650],
-            [85.2700, 27.5900]
+            [85.2200, 27.5900],
+            [85.5300, 27.5900],
+            [85.5300, 27.6650],
+            [85.2200, 27.6650],
+            [85.2200, 27.5900]
           ]
         ]
       }
